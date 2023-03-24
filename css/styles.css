@@ -1,0 +1,23 @@
+:root {
+  /* Colors */
+  /* Primary */
+  /* (intro and email sign up background) */
+  --dark-blue: hsl(217, 28%, 15%);
+  /* (main background); */
+  --dark-blue: hsl(218, 28%, 13%);
+  /* (footer-background); */
+  --dark-blue: hsl(216, 53%, 9%);
+  /* (testimonials-background); */
+  --dark-blue: hsl(219, 30%, 18%);
+  /* Accent */
+  /* (inside call-to-action gradient) */
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  /* (error) */
+  --light-red: hsl(0, 100%, 63%);
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --font-Open: 'Open Sans', sans-serif;
+  --font-Raleway: 'Raleway', sans-serif;
+}
+
