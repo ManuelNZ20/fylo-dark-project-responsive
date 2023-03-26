@@ -136,3 +136,30 @@ body {
   margin: auto;
   width: 60px;
 }
+.info_works {
+  margin: 6em 0;
+  grid-template-rows: repeat(4,auto);
+  text-align: left;
+  gap:1em;
+}
+
+.title_works {
+  text-align: left;
+  font-size: 1.4em;
+}
+.description_works {
+  font-size: 1.05em;
+}
+
+.link_works {
+  width: 152px;
+  border-bottom: 2px solid var(--cyan);
+  padding:.5em 0;
+}
+.text_link {
+  color:var(--cyan);
+  margin-right: .3em;
+}
+.img_link_works {
+  vertical-align: bottom;
+}
