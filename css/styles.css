@@ -124,7 +124,7 @@ body {
   margin: auto;
   width: 330px;
   grid-template-rows: repeat(auto-fit, minmax(210px, 250px));
-  gap:4em;
+  gap: 4em;
 }
 
 .service {
@@ -136,11 +136,11 @@ body {
   margin: auto;
   width: 60px;
 }
+/* info_works */
 .info_works {
   margin: 6em 0;
-  grid-template-rows: repeat(4,auto);
-  text-align: left;
-  gap:1em;
+  grid-template-rows: repeat(4, auto);
+  gap: 1em;
 }
 
 .title_works {
@@ -148,18 +148,64 @@ body {
   font-size: 1.4em;
 }
 .description_works {
+  text-align: left;
   font-size: 1.05em;
 }
 
 .link_works {
   width: 152px;
   border-bottom: 2px solid var(--cyan);
-  padding:.5em 0;
+  padding: 0.5em 0;
 }
 .text_link {
-  color:var(--cyan);
-  margin-right: .3em;
+  color: var(--cyan);
+  margin-right: 0.3em;
 }
 .img_link_works {
   vertical-align: bottom;
+}
+
+/* testimonial_team */
+.img_quotes {
+  position: relative;
+  top:28px;
+  width: 25px;
+}
+.testimonial_team {
+  padding: 3em 0 5em;
+  gap:2em;
+}
+
+.team {
+  height: 210px;
+  padding: 2em 1.8em;
+  background-color: var(--dark-blue-testimonials);
+  text-align: left;
+}
+
+.description_team {
+  font-size: 0.9em;
+  line-height: 1.5em;  
+}
+.team_work {
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "img name"
+    "img post";
+  gap: 0.2em;
+}
+.img_profile {
+  grid-area: img;
+  width: 40px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.name_worker {
+  letter-spacing: 0.1em;
+  grid-area: name;
+}
+.post_team {
+  grid-area: post;
+  font-size: 0.85em;
 }
